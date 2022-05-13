@@ -3,15 +3,12 @@ channels:
   - conda-forge
 dependencies:
   - python>=3.7
-  - xarray>=0.11.0
+  - xarray>=0.15.0
   - pandas
-  - jupyterlab=1.*
   - netcdf4>=1.2.5
   - numpy>=1.11.2
-  - dask=2.11.0
-  - dask-labextension=1.1.0
-  - distributed=2.11.0
-  - notebook
+  - dask
+  - distributed
   - toolz
   - pytest
   - fiona
@@ -20,10 +17,12 @@ dependencies:
   - seaborn
   - matplotlib
   - geopandas
-  - ipython
-  - ipywidgets>=7.5
-  - python-graphviz
+  - pandas
+  - jupyter
   - pip
-  - dask-ml
+  - summa>=3.0.3
+  - pysumma>=3.0.3
+  - mizuroute
   - pip:
     - hs_restclient
+    - nbsphinx
