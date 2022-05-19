@@ -1,0 +1,21 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  fman_ver
+simStartTime         '2006-07-01 00:00' ! 
+simEndTime           '2007-09-30 00:00' ! 
+tmZoneInfo           'localTime' ! 
+settingsPath         '<BASEDIR>/settings/' !  setting_path
+forcingPath          '<BASEDIR>/data/forcingData/' !  input_path
+outputPath           '<BASEDIR>/output/' !  output_path
+decisionsFile        'summa_zDecisions_riparianAspenSimpleResistance.txt' !  decision
+outputControlFile    'meta/Model_Output.txt' !  OUTPUT_CONTROL
+globalHruParamFile   'summa_zLocalParamInfo.txt' !  local_par
+globalGruParamFile   'summa_zBasinParamInfo.txt' !  basin_par
+attributeFile        'summa_zLocalAttributes_riparianAspen.nc' !  local_attr
+trialParamFile       'summa_zParamTrial_riparianAspen.nc' !  para_trial
+forcingListFile      'summa_zForcingFileList_riparianAspen.txt' !  forcing_list
+initConditionFile    'summa_zInitialCond.nc' !  initial_cond
+outFilePrefix        'vegImpactsTranspire' !  output_prefix
+vegTableFile         'VEGPARM.TBL' ! 
+soilTableFile        'SOILPARM.TBL' ! 
+generalTableFile     'GENPARM.TBL' ! 
+noahmpTableFile      'MPTABLE.TBL' ! 
+! history Mon Jul 20 16:08:15 2020: /pool0/home/andrbenn/data/summa_3/utils/convert_summa_config_v2_v3.py ./wrrPaperTestCases/figure07/summa_fileManager_riparianAspenSimpleResistance.txt
