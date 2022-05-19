@@ -4,7 +4,7 @@
 - 발표주제: 온라인 저장소, 클라우드기반 jupyterHub와 모델 APIs를 활용한 수자원모델링의 재현성 개선
 - 발표자: K-water연구원 AI연구센터 최영돈 책임연구원
 
-본 연구는 2015년 Water Resources Research에 게재된 SUMMA모델의 적용 논문(https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015WR017198)의
+본 연구는 2015년 Water Resources Research에 게재된 SUMMA모델의 적용 논문([https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015WR017198](https://doi.org/10.1002/2015WR017200))의
 Reproducibility를 Binder환경에서 보여주는 예제입니다.
 
 발표자료와 분석예제자료를 본 GitHub에 공유합니다. 분석을 위해서 아래의 "launch binder"를 Click해주세요.
