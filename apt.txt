@@ -1,11 +1,3 @@
+wget
 software-properties-common
 ca-certificates
-git
-make
-libnetcdff-dev
-liblapack-dev
-vim
-zip
-unzip
-gfortran-6
-graphviz

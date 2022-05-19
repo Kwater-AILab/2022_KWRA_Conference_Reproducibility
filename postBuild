@@ -1,19 +1,3 @@
-#!/usr/bin/env bash
-## clone and install pysumma
-git clone https://github.com/UW-Hydro/pysumma.git; cd pysumma
-conda env create -f environment.yml
-pip install .
-pip install geoviews
-
-## clone and install summa
-cd ..; git clone https://github.com/CH-Earth/summa
-
-## export necessary environment variables specified in Makefile
-export F_MASTER=/home/jovyan/summa
-export FC=gfortran
-export FC_EXE=/usr/bin/gfortran-6
-export INCLUDES='-I/usr/include'
-export LIBRARIES='-L/usr/lib -lnetcdff -lblas -llapack'
-
-## build from Makefile
-make -f ${F_MASTER}/build/Makefile
+source activate pysumma
+python setup.py master
+python -m ipykernel install --user --name pysumma
